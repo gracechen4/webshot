@@ -1,0 +1,38 @@
+This project allows user to take a screenshot of a webpage which links WEKU blockchain and uses Selerium webdriver.
+
+Copywight - Grace C.
+
+HOW TO RUN?
+
+WEB-part
+cd factom-db
+npm run start
+
+REST-part
+cd www/restapi
+node app.js
+
+
+For Chinese font, I had it solved by the following steps:
+sudo apt-get install language-pack-zh-hans
+sudo apt-get install ttf-arphic-uming
+sudo apt-get install ttf-dejavu ttf-wqy-microhei
+sudo fc-cache -f -v
+OS is Ubuntu 12.04 LTS
+
+
+# Install Chrome and ChromeDriver
+sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb
+
+downlad chrom driver from Selenium
+
+
+
+echo "# webshot" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gracechen4/webshot.git
+git push -u origin master
